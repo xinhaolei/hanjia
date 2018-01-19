@@ -298,17 +298,19 @@ body {
     width: 100%;
     background: 0;
     float: left;
-    position: relative;
+    position: absolute;
+    top: 15%;
     left: 0;
-    bottom:105%;
     line-height:7vw;
+    font-size: 1rem;
 }
 .swiper-slide.two .bottom p{
-    position: relative;
+    position: absolute;
     float: left;
     width: 100%;
     left: 0;
-    bottom: 85%;
+    top: 45%;
+    font-size: 1rem;
     color: #eda212;
 }
 .swiper-slide.two .main{
@@ -327,6 +329,12 @@ body {
     top: 92%;
     z-index: 3;
 
+}
+.swiper-slide.two .main3 img{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 63%;
 }
 /*第三屏*/
 .swiper-slide.three .top{
@@ -426,12 +434,12 @@ body {
     width: 103%;
     background: 0;
     float: left;
-    position: relative;
+    position: absolute;
     left: 0;
-    bottom:105%;
+    top: 15%;
     line-height:7vw;
     height: 37%;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 .swiper-slide.three .main{
     width: 100%;
@@ -448,7 +456,12 @@ body {
     position: absolute;
     top: 92%;
     z-index: 3;
-
+}
+.swiper-slide.three .main3 img{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 63%;
 }
 /*第四屏*/
 .swiper-slide.four .top{
@@ -548,12 +561,12 @@ body {
     width: 103%;
     background: 0;
     float: left;
-    position: relative;
+    position: absolute;
     left: 0;
-    bottom:105%;
+    top: 15%;
     line-height:7vw;
     height: 37%;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 .swiper-slide.four .main{
     width: 100%;
@@ -570,13 +583,638 @@ body {
     position: absolute;
     top: 92%;
     z-index: 3;
-
+}
+.swiper-slide.four .main3 img{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 63%;
 }
 /*第五屏*/
+.swiper-slide.fives .top{
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    height: 90%;
+    background: url("../img/7.jpg");
+    background-size: 100% 100%;
+}
+.swiper-slide.fives img{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.swiper-slide.fives img:nth-of-type(2){
+    float: right;
+    top: 0;
+    right: 0;
+    position: relative;
+}
+.swiper-slide.fives img:nth-of-type(3){
+    float: left;
+    top:10%;
+    left:-20%;
+    position: absolute;
+    z-index: 2;
+}
+.swiper-slide.fives .top img{
+    width: 75%;
+    height: 37%;
+    margin: 0 auto;
+    position: relative;
+    top: 5%;
 
+}
+.swiper-slide.fives .top img:nth-of-type(2){
+    position: absolute;
+    right: -80%;
+    width: 85%;
+}
+.swiper-slide.fives .right img{
+    position: absolute;
+    left: 0;
+    top: 57%;
+    width: 15%;
+    height: 10%;
+}
+.swiper-slide.fives .right img:nth-of-type(2){
+    top:70%;
+    width: 40%;
+    height: 30%;
+}
+.swiper-slide.fives .left{
+    position: absolute;
+    float: right;
+    top: 50%;
+    right:5%;
+}
+.swiper-slide.fives .left img{
+    width:70%;
+    float: right;
+    position: relative;
+}
+.swiper-slide.fives .foot{
+    position: absolute;
+    width: 90%;
+    float: right;
+    right: -75%;
+    top: 60%;
+}
+.swiper-slide.fives .foot img{
+    position: absolute;
+    width: 10%;
+    top: 64%;
+}
+.swiper-slide.fives .bottom{
+    width: 60%;
+    height: 33%;
+    margin: 0 auto;
+    top: 45%;
+    position: relative;
+}
+.swiper-slide.fives .bottom span{
+    width: 50%;
+    height: 10%;
+    background: #eda212;
+    color: red;
+    text-align: center;
+    float: left;
+    position: relative;
+    left: 25%;
+}
+.swiper-slide.fives .bottom span:nth-of-type(2){
+    color: #eda212;
+    width: 103%;
+    background: 0;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 15%;
+    line-height:7vw;
+    height: 37%;
+    font-size: 1rem;
+}
+.swiper-slide.fives .main{
+    width: 100%;
+    position: absolute;
+    bottom: 22%;
+    z-index: 1;
+}
+.swiper-slide.fives .main img{
+    width: 100%;
+}
+.swiper-slide.fives .main2{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 92%;
+    z-index: 3;
+}
+.swiper-slide.fives .main3 img{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 63%;
+}
+/*第六屏*/
+.swiper-slide.six .top{
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    height: 90%;
+    background: url("../img/7.jpg");
+    background-size: 100% 100%;
+}
+.swiper-slide.six img{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.swiper-slide.six img:nth-of-type(2){
+    float: right;
+    top: 0;
+    right: 0;
+    position: relative;
+}
+.swiper-slide.six img:nth-of-type(3){
+    float: left;
+    top:10%;
+    left:-20%;
+    position: absolute;
+    z-index: 2;
+}
+.swiper-slide.six .top img{
+    width: 75%;
+    height: 37%;
+    margin: 0 auto;
+    position: relative;
+    top: 5%;
 
-
-
+}
+.swiper-slide.six .top img:nth-of-type(2){
+    position: absolute;
+    right: -80%;
+    width: 85%;
+}
+.swiper-slide.six .right img{
+    position: absolute;
+    left: 0;
+    top: 57%;
+    width: 15%;
+    height: 10%;
+}
+.swiper-slide.six .right img:nth-of-type(2){
+    top:70%;
+    width: 40%;
+    height: 30%;
+}
+.swiper-slide.six .left{
+    position: absolute;
+    float: right;
+    top: 50%;
+    right:5%;
+}
+.swiper-slide.six .left img{
+    width:70%;
+    float: right;
+    position: relative;
+}
+.swiper-slide.six .foot{
+    position: absolute;
+    width: 90%;
+    float: right;
+    right: -75%;
+    top: 60%;
+}
+.swiper-slide.six .foot img{
+    position: absolute;
+    width: 10%;
+    top: 64%;
+}
+.swiper-slide.six .bottom{
+    width: 60%;
+    height: 33%;
+    margin: 0 auto;
+    top: 45%;
+    position: relative;
+}
+.swiper-slide.six .bottom span{
+    width: 50%;
+    height: 10%;
+    background: #eda212;
+    color: red;
+    text-align: center;
+    float: left;
+    position: relative;
+    left: 25%;
+}
+.swiper-slide.six .bottom span:nth-of-type(2){
+    color: #eda212;
+    width: 103%;
+    background: 0;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 15%;
+    line-height:7vw;
+    height: 37%;
+    font-size: 1rem;
+}
+.swiper-slide.six .main{
+    width: 100%;
+    position: absolute;
+    bottom: 22%;
+    z-index: 1;
+}
+.swiper-slide.six .main img{
+    width: 100%;
+}
+.swiper-slide.six .main2{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 92%;
+    z-index: 3;
+}
+.swiper-slide.six .main3 img{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 63%;
+}
+/*第七屏*/
+.swiper-slide.seven .top{
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    height: 90%;
+    background: url("../img/7.jpg");
+    background-size: 100% 100%;
+}
+.swiper-slide.seven img{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.swiper-slide.seven img:nth-of-type(2){
+    float: right;
+    top: 0;
+    right: 0;
+    position: relative;
+}
+.swiper-slide.seven img:nth-of-type(3){
+    float: left;
+    top:10%;
+    left:-20%;
+    position: absolute;
+    z-index: 2;
+}
+.swiper-slide.seven .top img{
+    position: relative;
+    top: 5%;
+    left:40%;
+}
+.swiper-slide.seven .right img{
+    position: absolute;
+    left: 0;
+    top: 57%;
+    width: 15%;
+    height: 10%;
+}
+.swiper-slide.seven .right img:nth-of-type(2){
+    top:70%;
+    width: 40%;
+    height: 30%;
+}
+.swiper-slide.seven .left{
+    position: absolute;
+    float: right;
+    top: 50%;
+    right:5%;
+}
+.swiper-slide.seven .left img{
+    width:70%;
+    float: right;
+    position: relative;
+}
+.swiper-slide.seven .foot{
+    position: absolute;
+    width: 90%;
+    float: right;
+    right: -75%;
+    top: 60%;
+}
+.swiper-slide.seven .foot img{
+    position: absolute;
+    width: 10%;
+    top: 64%;
+}
+.swiper-slide.seven .main{
+    width: 100%;
+    position: absolute;
+    bottom: 22%;
+    z-index: 1;
+}
+.swiper-slide.seven .main img{
+    width: 100%;
+}
+.swiper-slide.seven .main2{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 92%;
+    z-index: 3;
+}
+.swiper-slide.seven .main3 img{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 63%;
+}
+.swiper-slide.seven .bottom{
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.swiper-slide.seven .bottom span{
+    width: 50%;
+    height: 10%;
+    background: #eda212;
+    color: red;
+    float: left;
+    position: relative;
+    left: 25%;
+    font-size: 1.1rem;
+}
+.swiper-slide.seven .bottom span:nth-of-type(2){
+    color: #eda212;
+    background: 0;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 5%;
+    height:40%;
+}
+.swiper-slide.seven .bottom img{
+    width:40%;
+    height:45%;
+    position: relative;
+    float: left;
+    left: 8%;
+}
+.swiper-slide.seven .bottom img:nth-of-type(2){
+    left: 10%;
+}
+/*第八屏*/
+.swiper-slide.eight .top{
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    height: 90%;
+    background: url("../img/7.jpg");
+    background-size: 100% 100%;
+}
+.swiper-slide.eight img{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.swiper-slide.eight img:nth-of-type(2){
+    float: right;
+    top: 0;
+    right: 0;
+    position: relative;
+}
+.swiper-slide.eight img:nth-of-type(3){
+    float: left;
+    top:10%;
+    left:-20%;
+    position: absolute;
+    z-index: 2;
+}
+.swiper-slide.eight .top img{
+    position: relative;
+    top: 5%;
+    left:40%;
+}
+.swiper-slide.eight .right img{
+    position: absolute;
+    left: 0;
+    top: 57%;
+    width: 15%;
+    height: 10%;
+}
+.swiper-slide.eight .right img:nth-of-type(2){
+    top:70%;
+    width: 40%;
+    height: 30%;
+}
+.swiper-slide.eight .left{
+    position: absolute;
+    float: right;
+    top: 50%;
+    right:5%;
+}
+.swiper-slide.eight .left img{
+    width:70%;
+    float: right;
+    position: relative;
+}
+.swiper-slide.eight .foot{
+    position: absolute;
+    width: 90%;
+    float: right;
+    right: -75%;
+    top: 60%;
+}
+.swiper-slide.eight .foot img{
+    position: absolute;
+    width: 10%;
+    top: 64%;
+}
+.swiper-slide.eight .main{
+    width: 100%;
+    position: absolute;
+    bottom: 22%;
+    z-index: 1;
+}
+.swiper-slide.eight .main img{
+    width: 100%;
+}
+.swiper-slide.eight .main2{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 92%;
+    z-index: 3;
+}
+.swiper-slide.eight .main3 img{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 63%;
+}
+.swiper-slide.eight .bottom{
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.swiper-slide.eight .bottom span{
+    width: 50%;
+    height: 10%;
+    background: #eda212;
+    color: red;
+    float: left;
+    position: relative;
+    left: 25%;
+    font-size: 1.1rem;
+}
+.swiper-slide.eight .bottom span:nth-of-type(2){
+    color: #eda212;
+    background: 0;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 5%;
+    height:60%;
+}
+.swiper-slide.eight .bottom img{
+    width:85%;
+    height:45%;
+    position: relative;
+    float: left;
+    left: 8%;
+}
+/*第九屏*/
+.swiper-slide.nine .top{
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    height: 90%;
+    background: url("../img/7.jpg");
+    background-size: 100% 100%;
+}
+.swiper-slide.nine img{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.swiper-slide.nine img:nth-of-type(2){
+    float: right;
+    top: 0;
+    right: 0;
+    position: relative;
+}
+.swiper-slide.nine img:nth-of-type(3){
+    float: left;
+    top:10%;
+    left:-20%;
+    position: absolute;
+    z-index: 2;
+}
+.swiper-slide.nine .top img{
+    position: relative;
+    top: 5%;
+    left:40%;
+}
+.swiper-slide.nine .right img{
+    position: absolute;
+    left: 0;
+    top: 57%;
+    width: 15%;
+    height: 10%;
+}
+.swiper-slide.nine .right img:nth-of-type(2){
+    top:70%;
+    width: 40%;
+    height: 30%;
+}
+.swiper-slide.nine .left{
+    position: absolute;
+    float: right;
+    top: 50%;
+    right:5%;
+}
+.swiper-slide.nine .left img{
+    width:70%;
+    float: right;
+    position: relative;
+}
+.swiper-slide.nine .foot{
+    position: absolute;
+    width: 90%;
+    float: right;
+    right: -75%;
+    top: 60%;
+}
+.swiper-slide.nine .foot img{
+    position: absolute;
+    width: 10%;
+    top: 64%;
+}
+.swiper-slide.nine .main{
+    width: 100%;
+    position: absolute;
+    bottom: 22%;
+    z-index: 1;
+}
+.swiper-slide.nine .main img{
+    width: 100%;
+}
+.swiper-slide.nine .main2{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 92%;
+    z-index: 3;
+}
+.swiper-slide.nine .main3 img{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 63%;
+}
+.swiper-slide.nine .bottom{
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.swiper-slide.nine .bottom span{
+    width: 50%;
+    height: 10%;
+    background: #eda212;
+    color: red;
+    float: left;
+    position: relative;
+    left: 25%;
+    font-size: 1.1rem;
+}
+.swiper-slide.nine .bottom img{
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    top: 16%;
+    left: 20%;
+}
+.swiper-slide.nine .bottom p{
+    color: #eda212;
+    position: absolute;
+    width: 60%;
+    height: 10%;
+    left: 20%;
+    top: 67%;
+}
 
 
 
